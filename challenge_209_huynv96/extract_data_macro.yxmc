@@ -1,0 +1,865 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2019.3">
+  <Nodes>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+        <Position x="150" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>Field1</Field>
+          <Delimeters value="\n" />
+          <NumFields value="1" />
+          <Flags value="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field description="TextToColumns: Parsed from Field1" name="Field1" size="1880" source="TextToColumns: Parsed from Field1" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings>
+        <Position x="246" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="List Box (11)">"Field1"</Value>
+          <Value name="Check Box (84)">False</Value>
+          <Value name="Check Box (117)">False</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">True</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output26">
+          <RecordInfo>
+            <Field description="TextToColumns: Parsed from Field1" name="Field1" size="1880" source="Formula: [_CurrentField_]" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="28">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Tab.Tab">
+        <Position x="0" y="0" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.ControlParam.ControlParam">
+        <Position x="30" y="18" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="32">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="30" y="138" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="36">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="30" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="1" />
+          <Fields>
+            <Field name="Field1" />
+          </Fields>
+          <Data>
+            <r>
+              <c>Inception                            24-04-2019                           Claims Processed to                      31/10/2019
+Expiry                               23-04-2020                           Class                                         C
+Deductible      20 %      OHN      100     OCN 100       MPN        75    Dental Limit                 2,000.00      Optical Limit         400.00
+Annual Limit         500,000.00           In- patient limit  500,000.00 Out patient Limit             500,000.00      Maternity Limit    15,000.00
+       Annual Claims        No. of Lives   No. of Paid        Amt of Paid Claims      Amt of Paid Claims No. of OS Amt of OS Claims Amt of OS Claims
+                                             Claims              (before VAT)            (after VAT)       Claims    (before VAT)     (after VAT)
+        Period
+     Last Policy Year
+     3           04/2019        108              1                   195.00                 195.00            0          0.00              0.00
+                 05/2019        110             14                 10,207.47              10,273.95           0          0.00              0.00
+                 06/2019        108             20                 17,788.91              18,007.71           0          0.00              0.00
+                 07/2019        105             16                 21,777.07              22,254.54           0          0.00              0.00
+                 08/2019        105             16                 14,805.47              14,880.79           0          0.00              0.00
+                 09/2019        104             14                  9,421.50               9,482.94           0          0.00              0.00
+                 10/2019        102             20                  9,926.21              10,196.71           0          0.00              0.00</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Field1" size="1880" source="TextInput:" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="354" y="186" width="1160" height="264" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Data</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="14">
+          <GuiSettings>
+            <Position x="571" y="235" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="Ranges">1</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field description="TextToColumns: Parsed from Field1" name="Field1" size="1880" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field description="Formula: IF [Row-1:Field1]=&quot;Last Policy Year&quot; THEN 1 ELSE [Row-1:is_data] ENDIF" name="is_data" source="Formula: IF [Row-1:Field1]=&quot;Last Policy Year&quot; THEN 1 ELSE [Row-1:is_data] ENDIF" type="Int32" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings Macro="SelectRecords.yxmc" />
+        </Node>
+        <Node ToolID="16">
+          <GuiSettings>
+            <Position x="571" y="319" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="Ranges">2+</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field description="TextToColumns: Parsed from Field1" name="Field1" size="1880" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field description="Formula: IF [Row-1:Field1]=&quot;Last Policy Year&quot; THEN 1 ELSE [Row-1:is_data] ENDIF" name="is_data" source="Formula: IF [Row-1:Field1]=&quot;Last Policy Year&quot; THEN 1 ELSE [Row-1:is_data] ENDIF" type="Int32" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings Macro="SelectRecords.yxmc" />
+        </Node>
+        <Node ToolID="17">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+            <Position x="667" y="235.0001" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Field>Field1</Field>
+              <ErrorHandling>Last</ErrorHandling>
+              <RootName>
+              </RootName>
+              <Delimeters value=" " />
+              <NumFields value="2" />
+              <Flags value="0" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field description="TextToColumns: Parsed from Field1" name="Field1" size="1880" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field description="Formula: IF [Row-1:Field1]=&quot;Last Policy Year&quot; THEN 1 ELSE [Row-1:is_data] ENDIF" name="is_data" source="Formula: IF [Row-1:Field1]=&quot;Last Policy Year&quot; THEN 1 ELSE [Row-1:is_data] ENDIF" type="Int32" />
+                <Field description="TextToColumns: Parsed from Field1" name="1" size="1880" source="TextToColumns: Parsed from Field1" type="V_String" />
+                <Field description="TextToColumns: Parsed from Field1" name="2" size="1880" source="TextToColumns: Parsed from Field1" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+        </Node>
+        <Node ToolID="18">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="763" y="235" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="2" selected="True" rename="Field1" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field description="TextToColumns: Parsed from Field1" name="Field1" size="1880" source="TextToColumns: Parsed from Field1" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="19">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+            <Position x="859" y="319" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <ByName_ErrorMode>Warning</ByName_ErrorMode>
+              <ByName_OutputMode>All</ByName_OutputMode>
+              <Mode>ByName</Mode>
+              <SetOutputOrder value="True" />
+              <OutputOrder>
+                <Connection>#1</Connection>
+                <Connection>#2</Connection>
+              </OutputOrder>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field description="TextToColumns: Parsed from Field1" name="Field1" size="1880" source="(Multiple Sources)" type="V_String" />
+                <Field description="Formula: IF [Row-1:Field1]=&quot;Last Policy Year&quot; THEN 1 ELSE [Row-1:is_data] ENDIF" name="is_data" source="Formula: IF [Row-1:Field1]=&quot;Last Policy Year&quot; THEN 1 ELSE [Row-1:is_data] ENDIF" type="Int32" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+        </Node>
+        <Node ToolID="22">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+            <Position x="955" y="319" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Field>Field1</Field>
+              <ErrorHandling>Last</ErrorHandling>
+              <RootName>
+              </RootName>
+              <Delimeters value=" " />
+              <NumFields value="8" />
+              <Flags value="0" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field description="TextToColumns: Parsed from Field1" name="Field1" size="1880" source="(Multiple Sources)" type="V_String" />
+                <Field description="Formula: IF [Row-1:Field1]=&quot;Last Policy Year&quot; THEN 1 ELSE [Row-1:is_data] ENDIF" name="is_data" source="Formula: IF [Row-1:Field1]=&quot;Last Policy Year&quot; THEN 1 ELSE [Row-1:is_data] ENDIF" type="Int32" />
+                <Field description="TextToColumns: Parsed from Field1" name="1" size="1880" source="TextToColumns: Parsed from Field1" type="V_String" />
+                <Field description="TextToColumns: Parsed from Field1" name="2" size="1880" source="TextToColumns: Parsed from Field1" type="V_String" />
+                <Field description="TextToColumns: Parsed from Field1" name="3" size="1880" source="TextToColumns: Parsed from Field1" type="V_String" />
+                <Field description="TextToColumns: Parsed from Field1" name="4" size="1880" source="TextToColumns: Parsed from Field1" type="V_String" />
+                <Field description="TextToColumns: Parsed from Field1" name="5" size="1880" source="TextToColumns: Parsed from Field1" type="V_String" />
+                <Field description="TextToColumns: Parsed from Field1" name="6" size="1880" source="TextToColumns: Parsed from Field1" type="V_String" />
+                <Field description="TextToColumns: Parsed from Field1" name="7" size="1880" source="TextToColumns: Parsed from Field1" type="V_String" />
+                <Field description="TextToColumns: Parsed from Field1" name="8" size="1880" source="TextToColumns: Parsed from Field1" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+        </Node>
+        <Node ToolID="24">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+            <Position x="1147" y="319" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <IsFrom value="False" />
+              <InputFieldName>1</InputFieldName>
+              <Format>MM/yyyy</Format>
+              <OutputFieldName>Accident Month</OutputFieldName>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Convert 1 From:
+Custom</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field description="TextToColumns: Parsed from Field1" name="Field1" size="1880" source="(Multiple Sources)" type="V_String" />
+                <Field description="Formula: IF [Row-1:Field1]=&quot;Last Policy Year&quot; THEN 1 ELSE [Row-1:is_data] ENDIF" name="is_data" source="Formula: IF [Row-1:Field1]=&quot;Last Policy Year&quot; THEN 1 ELSE [Row-1:is_data] ENDIF" type="Int32" />
+                <Field description="TextToColumns: Parsed from Field1" name="1" size="1880" source="TextToColumns: Parsed from Field1" type="V_String" />
+                <Field description="TextToColumns: Parsed from Field1" name="2" size="1881" source="Formula: Replace([_CurrentField_],&quot;,&quot;,&quot;&quot;)" type="V_String" />
+                <Field description="TextToColumns: Parsed from Field1" name="3" size="1881" source="Formula: Replace([_CurrentField_],&quot;,&quot;,&quot;&quot;)" type="V_String" />
+                <Field description="TextToColumns: Parsed from Field1" name="4" size="1881" source="Formula: Replace([_CurrentField_],&quot;,&quot;,&quot;&quot;)" type="V_String" />
+                <Field description="TextToColumns: Parsed from Field1" name="5" size="1881" source="Formula: Replace([_CurrentField_],&quot;,&quot;,&quot;&quot;)" type="V_String" />
+                <Field description="TextToColumns: Parsed from Field1" name="6" size="1881" source="Formula: Replace([_CurrentField_],&quot;,&quot;,&quot;&quot;)" type="V_String" />
+                <Field description="TextToColumns: Parsed from Field1" name="7" size="1881" source="Formula: Replace([_CurrentField_],&quot;,&quot;,&quot;&quot;)" type="V_String" />
+                <Field description="TextToColumns: Parsed from Field1" name="8" size="1881" source="Formula: Replace([_CurrentField_],&quot;,&quot;,&quot;&quot;)" type="V_String" />
+                <Field name="Accident Month" source="DateTime: To MM/yyyy" type="Date" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+        </Node>
+        <Node ToolID="26">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.MultiFieldFormula.MultiFieldFormula">
+            <Position x="1051" y="319" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FieldType>Text</FieldType>
+              <Fields orderChanged="False">
+                <Field name="2" />
+                <Field name="3" />
+                <Field name="4" />
+                <Field name="5" />
+                <Field name="6" />
+                <Field name="7" />
+                <Field name="8" />
+                <Field name="*Unknown" />
+                <Field name="Field1" selected="False" />
+                <Field name="1" selected="False" />
+              </Fields>
+              <CopyOutput value="False" />
+              <Expression>Replace([_CurrentField_],",","")</Expression>
+              <ChangeFieldType value="True" />
+              <OutputFieldType type="V_String" size="1881" scale="0" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Replace([_CurrentField_],",","")</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field description="TextToColumns: Parsed from Field1" name="Field1" size="1880" source="(Multiple Sources)" type="V_String" />
+                <Field description="Formula: IF [Row-1:Field1]=&quot;Last Policy Year&quot; THEN 1 ELSE [Row-1:is_data] ENDIF" name="is_data" source="Formula: IF [Row-1:Field1]=&quot;Last Policy Year&quot; THEN 1 ELSE [Row-1:is_data] ENDIF" type="Int32" />
+                <Field description="TextToColumns: Parsed from Field1" name="1" size="1880" source="TextToColumns: Parsed from Field1" type="V_String" />
+                <Field description="TextToColumns: Parsed from Field1" name="2" size="1881" source="Formula: Replace([_CurrentField_],&quot;,&quot;,&quot;&quot;)" type="V_String" />
+                <Field description="TextToColumns: Parsed from Field1" name="3" size="1881" source="Formula: Replace([_CurrentField_],&quot;,&quot;,&quot;&quot;)" type="V_String" />
+                <Field description="TextToColumns: Parsed from Field1" name="4" size="1881" source="Formula: Replace([_CurrentField_],&quot;,&quot;,&quot;&quot;)" type="V_String" />
+                <Field description="TextToColumns: Parsed from Field1" name="5" size="1881" source="Formula: Replace([_CurrentField_],&quot;,&quot;,&quot;&quot;)" type="V_String" />
+                <Field description="TextToColumns: Parsed from Field1" name="6" size="1881" source="Formula: Replace([_CurrentField_],&quot;,&quot;,&quot;&quot;)" type="V_String" />
+                <Field description="TextToColumns: Parsed from Field1" name="7" size="1881" source="Formula: Replace([_CurrentField_],&quot;,&quot;,&quot;&quot;)" type="V_String" />
+                <Field description="TextToColumns: Parsed from Field1" name="8" size="1881" source="Formula: Replace([_CurrentField_],&quot;,&quot;,&quot;&quot;)" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiFieldFormula" />
+        </Node>
+        <Node ToolID="34">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.MultiRowFormula.MultiRowFormula">
+            <Position x="379" y="246.9999" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <UpdateField value="False" />
+              <UpdateField_Name>Field1</UpdateField_Name>
+              <CreateField_Name>is_data</CreateField_Name>
+              <CreateField_Type>Int32</CreateField_Type>
+              <CreateField_Size>4</CreateField_Size>
+              <OtherRows>Empty</OtherRows>
+              <NumRows value="1" />
+              <Expression>IF [Row-1:Field1]="Last Policy Year" THEN 1 ELSE [Row-1:is_data] ENDIF</Expression>
+              <GroupByFields />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>IF [Row-1:Field1]="Last Policy Year" THEN 1 ELSE [Row-1:is_da...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field description="TextToColumns: Parsed from Field1" name="Field1" size="1880" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field description="Formula: IF [Row-1:Field1]=&quot;Last Policy Year&quot; THEN 1 ELSE [Row-1:is_data] ENDIF" name="is_data" source="Formula: IF [Row-1:Field1]=&quot;Last Policy Year&quot; THEN 1 ELSE [Row-1:is_data] ENDIF" type="Int32" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiRowFormula" />
+        </Node>
+        <Node ToolID="35">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="475" y="246.9999" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Expression>[is_data] = 1</Expression>
+              <Mode>Simple</Mode>
+              <Simple>
+                <Operator>=</Operator>
+                <Field>is_data</Field>
+                <Operands>
+                  <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+                  <DateType>fixed</DateType>
+                  <PeriodDate>2020-03-31 17:41:29</PeriodDate>
+                  <PeriodType>
+                  </PeriodType>
+                  <PeriodCount>0</PeriodCount>
+                  <StartDate>2020-03-31 17:41:29</StartDate>
+                  <EndDate>2020-03-31 17:41:29</EndDate>
+                  <Operand>1</Operand>
+                </Operands>
+              </Simple>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>[is_data] = 1</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="True">
+              <RecordInfo>
+                <Field description="TextToColumns: Parsed from Field1" name="Field1" size="1880" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field description="Formula: IF [Row-1:Field1]=&quot;Last Policy Year&quot; THEN 1 ELSE [Row-1:is_data] ENDIF" name="is_data" source="Formula: IF [Row-1:Field1]=&quot;Last Policy Year&quot; THEN 1 ELSE [Row-1:is_data] ENDIF" type="Int32" />
+              </RecordInfo>
+            </MetaInfo>
+            <MetaInfo connection="False">
+              <RecordInfo>
+                <Field description="TextToColumns: Parsed from Field1" name="Field1" size="1880" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field description="Formula: IF [Row-1:Field1]=&quot;Last Policy Year&quot; THEN 1 ELSE [Row-1:is_data] ENDIF" name="is_data" source="Formula: IF [Row-1:Field1]=&quot;Last Policy Year&quot; THEN 1 ELSE [Row-1:is_data] ENDIF" type="Int32" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="27">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AppendFields.AppendFields">
+            <Position x="1279" y="259" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <CartesianMode>Error</CartesianMode>
+              <SelectConfiguration>
+                <Configuration outputConnection="Output">
+                  <OrderChanged value="True" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="Target_Inception" selected="True" input="Target_" type="String" size="10" />
+                    <SelectField field="Source_Accident Month" selected="True" input="Source_" description="Formula: IF [Row-1:Field1]=&quot;Last Policy Year&quot; THEN 1 ELSE [Row-1:is_data] ENDIF" />
+                    <SelectField field="Source_Field1" selected="False" input="Source_" />
+                    <SelectField field="Source_is_data" selected="False" input="Source_" description="TextToColumns: Parsed from Field1" />
+                    <SelectField field="Source_1" selected="False" input="Source_" />
+                    <SelectField field="Source_2" selected="True" rename="Number of Lives" input="Source_" type="Int16" size="2" />
+                    <SelectField field="Source_3" selected="True" rename="Number of Paid Claims" input="Source_" type="Int16" size="2" />
+                    <SelectField field="Source_4" selected="True" rename="Amt Paid Before VAT" input="Source_" type="Double" size="8" />
+                    <SelectField field="Source_5" selected="True" rename="Amt Paid After VAT" input="Source_" type="Double" size="8" />
+                    <SelectField field="Source_6" selected="True" rename="Number of OS Claims" input="Source_" type="Byte" size="1" />
+                    <SelectField field="Source_7" selected="True" rename="Amt of OS Claims Before VAT" input="Source_" type="Byte" size="1" />
+                    <SelectField field="Source_8" selected="True" rename="Amt of OS Claims after VAT" input="Source_" type="Byte" size="1" />
+                    <SelectField field="*Unknown" selected="False" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field description="TextToColumns: Parsed from Field1" name="Inception" size="10" source="TextToColumns: Parsed from Field1" type="String" />
+                <Field description="Formula: IF [Row-1:Field1]=&quot;Last Policy Year&quot; THEN 1 ELSE [Row-1:is_data] ENDIF" name="Accident Month" source="DateTime: To MM/yyyy" type="Date" />
+                <Field description="TextToColumns: Parsed from Field1" name="Number of Lives" source="Formula: Replace([_CurrentField_],&quot;,&quot;,&quot;&quot;)" type="Int16" />
+                <Field description="TextToColumns: Parsed from Field1" name="Number of Paid Claims" source="Formula: Replace([_CurrentField_],&quot;,&quot;,&quot;&quot;)" type="Int16" />
+                <Field description="TextToColumns: Parsed from Field1" name="Amt Paid Before VAT" source="Formula: Replace([_CurrentField_],&quot;,&quot;,&quot;&quot;)" type="Double" />
+                <Field description="TextToColumns: Parsed from Field1" name="Amt Paid After VAT" source="Formula: Replace([_CurrentField_],&quot;,&quot;,&quot;&quot;)" type="Double" />
+                <Field description="TextToColumns: Parsed from Field1" name="Number of OS Claims" source="Formula: Replace([_CurrentField_],&quot;,&quot;,&quot;&quot;)" type="Byte" />
+                <Field description="TextToColumns: Parsed from Field1" name="Amt of OS Claims Before VAT" source="Formula: Replace([_CurrentField_],&quot;,&quot;,&quot;&quot;)" type="Byte" />
+                <Field description="TextToColumns: Parsed from Field1" name="Amt of OS Claims after VAT" source="Formula: Replace([_CurrentField_],&quot;,&quot;,&quot;&quot;)" type="Byte" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAppendFields" />
+        </Node>
+        <Node ToolID="29">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.MacroOutput.MacroOutput">
+            <Position x="1387" y="259" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Name>Output29</Name>
+              <Abbrev />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroOutput" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="353" y="45.00002" width="301" height="133" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Inception</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="5">
+          <GuiSettings>
+            <Position x="378" y="94.00002" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="Ranges">1</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field description="TextToColumns: Parsed from Field1" name="Field1" size="1880" source="Formula: [_CurrentField_]" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings Macro="SelectRecords.yxmc" />
+        </Node>
+        <Node ToolID="9">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+            <Position x="474" y="94.00002" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Field>Field1</Field>
+              <ErrorHandling>Last</ErrorHandling>
+              <RootName>
+              </RootName>
+              <Delimeters value=" " />
+              <NumFields value="3" />
+              <Flags value="0" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field description="TextToColumns: Parsed from Field1" name="Field1" size="1880" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field description="TextToColumns: Parsed from Field1" name="1" size="1880" source="TextToColumns: Parsed from Field1" type="V_String" />
+                <Field description="TextToColumns: Parsed from Field1" name="2" size="1880" source="TextToColumns: Parsed from Field1" type="V_String" />
+                <Field description="TextToColumns: Parsed from Field1" name="3" size="1880" source="TextToColumns: Parsed from Field1" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+        </Node>
+        <Node ToolID="12">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.CrossTab.CrossTab">
+            <Position x="570" y="94.00002" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <GroupFields />
+              <HeaderField field="1" />
+              <DataField field="2" />
+              <Methods>
+                <Method method="First" />
+                <Separator>,</Separator>
+                <FieldSize value="2048" />
+              </Methods>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field description="TextToColumns: Parsed from Field1" name="Inception" size="1880" source="TextToColumns: Parsed from Field1" type="V_String" />
+              </RecordInfo>
+              <SortInfo>
+              </SortInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxCrossTab" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="8" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output26" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output26" />
+      <Destination ToolID="34" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="31" Connection="Question" />
+      <Destination ToolID="32" Connection="Question" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="32" Connection="Action" />
+      <Destination ToolID="36" Connection="Action" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="36" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="Output" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Output" />
+      <Destination ToolID="26" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Output" />
+      <Destination ToolID="27" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="27" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Output" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="34" Connection="Output" />
+      <Destination ToolID="35" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="35" Connection="True" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="35" Connection="True" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="27" Connection="Output" />
+      <Destination ToolID="29" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <Constants>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>ControlParam.Control Parameter (31)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+    </Constants>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>extract_data_macro</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="False" />
+    </Events>
+    <RuntimeProperties>
+      <Actions>
+        <NoCondition>
+          <Type>NoCondition</Type>
+          <Description>(Always Run)</Description>
+          <True>
+            <Action>
+              <Type>Dynamic</Type>
+              <Description />
+              <ToolId value="32" />
+              <Expression>{{INPUT}}</Expression>
+              <Destination>3/Data/r[1]/c[1]</Destination>
+              <Mapping>Update Cell</Mapping>
+              <Mode>Expression</Mode>
+              <DynamicConfiguration>row	1
+column	1</DynamicConfiguration>
+              <DefaultConfiguration value="True" />
+            </Action>
+          </True>
+        </NoCondition>
+      </Actions>
+      <Questions>
+        <Question>
+          <Type>Tab</Type>
+          <Description>Questions</Description>
+          <Name>Tab (28)</Name>
+          <ToolId value="28" />
+          <Questions>
+            <Question>
+              <Type>MacroOutput</Type>
+              <Description>Macro Output (29)</Description>
+              <Name>Macro Output (29)</Name>
+              <ToolId value="29" />
+            </Question>
+            <Question>
+              <Type>ControlParam</Type>
+              <Description>Control Parameter (31)</Description>
+              <Name>Control Parameter (31)</Name>
+              <ToolId value="31" />
+            </Question>
+          </Questions>
+        </Question>
+      </Questions>
+      <ModuleType>Macro</ModuleType>
+      <MacroCustomHelp value="False" />
+      <MacroDynamicOutputFields value="False" />
+      <MacroImageStd value="39" />
+      <MacroInputs />
+      <MacroOutputs />
+      <BatchMacro>
+        <OutputMode>AllSame</OutputMode>
+        <ControlParams>
+          <ControlParam>
+            <Name>Control Parameter (31)</Name>
+            <Description>Control Parameter (31)</Description>
+          </ControlParam>
+        </ControlParams>
+      </BatchMacro>
+      <Wiz_CustomHelp value="False" />
+      <Wiz_CustomGraphic value="False" />
+      <Wiz_ShowOutput value="True" />
+      <Wiz_OpenOutputTools>
+        <Tool ToolId="5" Selected="True" />
+        <Tool ToolId="8" Selected="True" />
+        <Tool ToolId="14" Selected="True" />
+        <Tool ToolId="16" Selected="True" />
+        <Tool ToolId="29" Selected="True" />
+      </Wiz_OpenOutputTools>
+      <Wiz_OutputMessage />
+      <Wiz_NoOutputFilesMessage />
+      <Wiz_ChainRunWizard />
+    </RuntimeProperties>
+  </Properties>
+</AlteryxDocument>
