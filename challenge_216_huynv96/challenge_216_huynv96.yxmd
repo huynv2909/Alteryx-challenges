@@ -1,0 +1,2191 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2019.3">
+  <Nodes>
+    <Node ToolID="28">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="1074" y="426" width="204" height="132" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text><![CDATA[Output
+
+
+
+
+
+]]></Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="426" width="240" height="288" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text><![CDATA[Inputs
+
+
+
+
+
+
+]]></Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1206" y="462" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\ABC\AppData\Local\Temp\Engine_5232_9ebc0e70437f4ab499b22b86a03df618_\Engine_5112_8bf5fd99368c4a8aa035f094d3c28d69_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="54" width="324" height="72" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text />
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="4" />
+          <BG_Image>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</BG_Image>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="438" y="66" width="468" height="40" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Weekly Challenge #216</Text>
+          <Font name="Microsoft Sans Serif" size="16.2" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="138" width="744" height="240" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text><![CDATA[The Big Five personality traits, also known as the five-factor model (FFM), is a taxonomy, or grouping, for personality traits. 
+
+The dataset below contains responses from users who rated themselves on a scale of 1 to 5 for 50 questions in the 5 personality factors. Some questions are weighted positively in the final score, some are weighted negatively.
+
+Your job is to give each user a score in each of the 5 factors (Sum of all points per factor). Additionally, each users' final score should be adjusted as follows per the scoring instructions on https://openpsychometrics.org/
+
+Extraversion:              20 + Score
+Agreeableness:          14 + Score
+Conscientiousness:  14 + Score
+Neuroticism:               38 - Score
+Openness:                    8 + Score
+
+Data Source: https://www.kaggle.com/tunguz/big-five-personality-test#data-final.csv
+]]></Text>
+          <Font name="Microsoft Sans Serif" size="9.75" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="42">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="1098" y="462" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="99" />
+          <Fields>
+            <Field name="User" />
+            <Field name="extraversion" />
+            <Field name="agreeableness" />
+            <Field name="conscientiousness" />
+            <Field name="neuroticism" />
+            <Field name="openness" />
+          </Fields>
+          <Data>
+            <r>
+              <c>1</c>
+              <c>36</c>
+              <c>29</c>
+              <c>22</c>
+              <c>50</c>
+              <c>35</c>
+            </r>
+            <r>
+              <c>2</c>
+              <c>10</c>
+              <c>34</c>
+              <c>27</c>
+              <c>51</c>
+              <c>25</c>
+            </r>
+            <r>
+              <c>3</c>
+              <c>15</c>
+              <c>32</c>
+              <c>24</c>
+              <c>52</c>
+              <c>31</c>
+            </r>
+            <r>
+              <c>4</c>
+              <c>16</c>
+              <c>28</c>
+              <c>15</c>
+              <c>55</c>
+              <c>29</c>
+            </r>
+            <r>
+              <c>5</c>
+              <c>19</c>
+              <c>36</c>
+              <c>38</c>
+              <c>45</c>
+              <c>38</c>
+            </r>
+            <r>
+              <c>6</c>
+              <c>22</c>
+              <c>28</c>
+              <c>27</c>
+              <c>48</c>
+              <c>34</c>
+            </r>
+            <r>
+              <c>7</c>
+              <c>25</c>
+              <c>31</c>
+              <c>23</c>
+              <c>56</c>
+              <c>33</c>
+            </r>
+            <r>
+              <c>8</c>
+              <c>32</c>
+              <c>28</c>
+              <c>35</c>
+              <c>42</c>
+              <c>33</c>
+            </r>
+            <r>
+              <c>9</c>
+              <c>22</c>
+              <c>35</c>
+              <c>21</c>
+              <c>56</c>
+              <c>35</c>
+            </r>
+            <r>
+              <c>10</c>
+              <c>12</c>
+              <c>9</c>
+              <c>7</c>
+              <c>57</c>
+              <c>25</c>
+            </r>
+            <r>
+              <c>11</c>
+              <c>19</c>
+              <c>27</c>
+              <c>14</c>
+              <c>65</c>
+              <c>40</c>
+            </r>
+            <r>
+              <c>12</c>
+              <c>30</c>
+              <c>29</c>
+              <c>26</c>
+              <c>72</c>
+              <c>33</c>
+            </r>
+            <r>
+              <c>13</c>
+              <c>34</c>
+              <c>38</c>
+              <c>12</c>
+              <c>50</c>
+              <c>39</c>
+            </r>
+            <r>
+              <c>14</c>
+              <c>0</c>
+              <c>16</c>
+              <c>29</c>
+              <c>70</c>
+              <c>32</c>
+            </r>
+            <r>
+              <c>15</c>
+              <c>6</c>
+              <c>34</c>
+              <c>23</c>
+              <c>66</c>
+              <c>30</c>
+            </r>
+            <r>
+              <c>16</c>
+              <c>21</c>
+              <c>24</c>
+              <c>25</c>
+              <c>63</c>
+              <c>32</c>
+            </r>
+            <r>
+              <c>17</c>
+              <c>10</c>
+              <c>24</c>
+              <c>18</c>
+              <c>63</c>
+              <c>28</c>
+            </r>
+            <r>
+              <c>18</c>
+              <c>31</c>
+              <c>31</c>
+              <c>19</c>
+              <c>46</c>
+              <c>18</c>
+            </r>
+            <r>
+              <c>19</c>
+              <c>30</c>
+              <c>39</c>
+              <c>13</c>
+              <c>47</c>
+              <c>27</c>
+            </r>
+            <r>
+              <c>20</c>
+              <c>34</c>
+              <c>27</c>
+              <c>35</c>
+              <c>68</c>
+              <c>20</c>
+            </r>
+            <r>
+              <c>21</c>
+              <c>15</c>
+              <c>25</c>
+              <c>27</c>
+              <c>68</c>
+              <c>24</c>
+            </r>
+            <r>
+              <c>22</c>
+              <c>19</c>
+              <c>26</c>
+              <c>19</c>
+              <c>60</c>
+              <c>13</c>
+            </r>
+            <r>
+              <c>23</c>
+              <c>9</c>
+              <c>33</c>
+              <c>28</c>
+              <c>50</c>
+              <c>21</c>
+            </r>
+            <r>
+              <c>24</c>
+              <c>14</c>
+              <c>36</c>
+              <c>25</c>
+              <c>52</c>
+              <c>32</c>
+            </r>
+            <r>
+              <c>25</c>
+              <c>1</c>
+              <c>28</c>
+              <c>23</c>
+              <c>70</c>
+              <c>26</c>
+            </r>
+            <r>
+              <c>26</c>
+              <c>19</c>
+              <c>33</c>
+              <c>15</c>
+              <c>62</c>
+              <c>21</c>
+            </r>
+            <r>
+              <c>27</c>
+              <c>33</c>
+              <c>40</c>
+              <c>32</c>
+              <c>56</c>
+              <c>32</c>
+            </r>
+            <r>
+              <c>28</c>
+              <c>3</c>
+              <c>15</c>
+              <c>20</c>
+              <c>49</c>
+              <c>31</c>
+            </r>
+            <r>
+              <c>29</c>
+              <c>13</c>
+              <c>30</c>
+              <c>16</c>
+              <c>65</c>
+              <c>23</c>
+            </r>
+            <r>
+              <c>30</c>
+              <c>20</c>
+              <c>33</c>
+              <c>32</c>
+              <c>69</c>
+              <c>32</c>
+            </r>
+            <r>
+              <c>31</c>
+              <c>24</c>
+              <c>33</c>
+              <c>32</c>
+              <c>46</c>
+              <c>27</c>
+            </r>
+            <r>
+              <c>32</c>
+              <c>10</c>
+              <c>32</c>
+              <c>34</c>
+              <c>65</c>
+              <c>25</c>
+            </r>
+            <r>
+              <c>33</c>
+              <c>23</c>
+              <c>31</c>
+              <c>16</c>
+              <c>41</c>
+              <c>30</c>
+            </r>
+            <r>
+              <c>34</c>
+              <c>19</c>
+              <c>25</c>
+              <c>15</c>
+              <c>72</c>
+              <c>28</c>
+            </r>
+            <r>
+              <c>35</c>
+              <c>20</c>
+              <c>23</c>
+              <c>15</c>
+              <c>65</c>
+              <c>20</c>
+            </r>
+            <r>
+              <c>36</c>
+              <c>13</c>
+              <c>35</c>
+              <c>34</c>
+              <c>67</c>
+              <c>30</c>
+            </r>
+            <r>
+              <c>37</c>
+              <c>35</c>
+              <c>32</c>
+              <c>15</c>
+              <c>62</c>
+              <c>26</c>
+            </r>
+            <r>
+              <c>38</c>
+              <c>18</c>
+              <c>20</c>
+              <c>15</c>
+              <c>49</c>
+              <c>39</c>
+            </r>
+            <r>
+              <c>39</c>
+              <c>13</c>
+              <c>23</c>
+              <c>19</c>
+              <c>50</c>
+              <c>28</c>
+            </r>
+            <r>
+              <c>40</c>
+              <c>36</c>
+              <c>37</c>
+              <c>16</c>
+              <c>51</c>
+              <c>35</c>
+            </r>
+            <r>
+              <c>41</c>
+              <c>14</c>
+              <c>26</c>
+              <c>21</c>
+              <c>65</c>
+              <c>19</c>
+            </r>
+            <r>
+              <c>42</c>
+              <c>20</c>
+              <c>32</c>
+              <c>28</c>
+              <c>61</c>
+              <c>31</c>
+            </r>
+            <r>
+              <c>43</c>
+              <c>33</c>
+              <c>39</c>
+              <c>23</c>
+              <c>41</c>
+              <c>33</c>
+            </r>
+            <r>
+              <c>44</c>
+              <c>22</c>
+              <c>36</c>
+              <c>18</c>
+              <c>61</c>
+              <c>21</c>
+            </r>
+            <r>
+              <c>45</c>
+              <c>22</c>
+              <c>38</c>
+              <c>37</c>
+              <c>41</c>
+              <c>32</c>
+            </r>
+            <r>
+              <c>46</c>
+              <c>25</c>
+              <c>32</c>
+              <c>19</c>
+              <c>65</c>
+              <c>25</c>
+            </r>
+            <r>
+              <c>47</c>
+              <c>28</c>
+              <c>23</c>
+              <c>10</c>
+              <c>63</c>
+              <c>30</c>
+            </r>
+            <r>
+              <c>48</c>
+              <c>25</c>
+              <c>38</c>
+              <c>12</c>
+              <c>58</c>
+              <c>27</c>
+            </r>
+            <r>
+              <c>49</c>
+              <c>15</c>
+              <c>32</c>
+              <c>29</c>
+              <c>50</c>
+              <c>31</c>
+            </r>
+            <r>
+              <c>50</c>
+              <c>16</c>
+              <c>25</c>
+              <c>29</c>
+              <c>53</c>
+              <c>26</c>
+            </r>
+            <r>
+              <c>51</c>
+              <c>38</c>
+              <c>26</c>
+              <c>15</c>
+              <c>62</c>
+              <c>33</c>
+            </r>
+            <r>
+              <c>52</c>
+              <c>11</c>
+              <c>19</c>
+              <c>25</c>
+              <c>60</c>
+              <c>28</c>
+            </r>
+            <r>
+              <c>53</c>
+              <c>13</c>
+              <c>20</c>
+              <c>20</c>
+              <c>63</c>
+              <c>33</c>
+            </r>
+            <r>
+              <c>54</c>
+              <c>21</c>
+              <c>39</c>
+              <c>25</c>
+              <c>56</c>
+              <c>38</c>
+            </r>
+            <r>
+              <c>55</c>
+              <c>18</c>
+              <c>36</c>
+              <c>27</c>
+              <c>52</c>
+              <c>27</c>
+            </r>
+            <r>
+              <c>56</c>
+              <c>33</c>
+              <c>34</c>
+              <c>25</c>
+              <c>46</c>
+              <c>35</c>
+            </r>
+            <r>
+              <c>57</c>
+              <c>13</c>
+              <c>25</c>
+              <c>15</c>
+              <c>64</c>
+              <c>34</c>
+            </r>
+            <r>
+              <c>58</c>
+              <c>26</c>
+              <c>22</c>
+              <c>24</c>
+              <c>50</c>
+              <c>24</c>
+            </r>
+            <r>
+              <c>59</c>
+              <c>19</c>
+              <c>35</c>
+              <c>32</c>
+              <c>55</c>
+              <c>34</c>
+            </r>
+            <r>
+              <c>60</c>
+              <c>18</c>
+              <c>25</c>
+              <c>26</c>
+              <c>58</c>
+              <c>22</c>
+            </r>
+            <r>
+              <c>61</c>
+              <c>25</c>
+              <c>29</c>
+              <c>12</c>
+              <c>72</c>
+              <c>17</c>
+            </r>
+            <r>
+              <c>62</c>
+              <c>34</c>
+              <c>10</c>
+              <c>17</c>
+              <c>57</c>
+              <c>19</c>
+            </r>
+            <r>
+              <c>63</c>
+              <c>38</c>
+              <c>28</c>
+              <c>26</c>
+              <c>52</c>
+              <c>23</c>
+            </r>
+            <r>
+              <c>64</c>
+              <c>34</c>
+              <c>33</c>
+              <c>21</c>
+              <c>57</c>
+              <c>26</c>
+            </r>
+            <r>
+              <c>65</c>
+              <c>12</c>
+              <c>32</c>
+              <c>11</c>
+              <c>62</c>
+              <c>28</c>
+            </r>
+            <r>
+              <c>66</c>
+              <c>23</c>
+              <c>32</c>
+              <c>21</c>
+              <c>50</c>
+              <c>32</c>
+            </r>
+            <r>
+              <c>67</c>
+              <c>15</c>
+              <c>26</c>
+              <c>12</c>
+              <c>67</c>
+              <c>30</c>
+            </r>
+            <r>
+              <c>68</c>
+              <c>23</c>
+              <c>32</c>
+              <c>10</c>
+              <c>55</c>
+              <c>37</c>
+            </r>
+            <r>
+              <c>69</c>
+              <c>12</c>
+              <c>22</c>
+              <c>29</c>
+              <c>63</c>
+              <c>36</c>
+            </r>
+            <r>
+              <c>70</c>
+              <c>10</c>
+              <c>20</c>
+              <c>26</c>
+              <c>65</c>
+              <c>36</c>
+            </r>
+            <r>
+              <c>71</c>
+              <c>26</c>
+              <c>35</c>
+              <c>28</c>
+              <c>58</c>
+              <c>34</c>
+            </r>
+            <r>
+              <c>72</c>
+              <c>13</c>
+              <c>7</c>
+              <c>19</c>
+              <c>59</c>
+              <c>21</c>
+            </r>
+            <r>
+              <c>73</c>
+              <c>4</c>
+              <c>12</c>
+              <c>22</c>
+              <c>50</c>
+              <c>26</c>
+            </r>
+            <r>
+              <c>74</c>
+              <c>19</c>
+              <c>30</c>
+              <c>25</c>
+              <c>68</c>
+              <c>32</c>
+            </r>
+            <r>
+              <c>75</c>
+              <c>19</c>
+              <c>35</c>
+              <c>17</c>
+              <c>62</c>
+              <c>35</c>
+            </r>
+            <r>
+              <c>76</c>
+              <c>10</c>
+              <c>33</c>
+              <c>23</c>
+              <c>49</c>
+              <c>31</c>
+            </r>
+            <r>
+              <c>77</c>
+              <c>33</c>
+              <c>37</c>
+              <c>39</c>
+              <c>42</c>
+              <c>33</c>
+            </r>
+            <r>
+              <c>78</c>
+              <c>10</c>
+              <c>28</c>
+              <c>18</c>
+              <c>62</c>
+              <c>23</c>
+            </r>
+            <r>
+              <c>79</c>
+              <c>15</c>
+              <c>7</c>
+              <c>13</c>
+              <c>49</c>
+              <c>35</c>
+            </r>
+            <r>
+              <c>80</c>
+              <c>26</c>
+              <c>34</c>
+              <c>25</c>
+              <c>60</c>
+              <c>25</c>
+            </r>
+            <r>
+              <c>81</c>
+              <c>34</c>
+              <c>30</c>
+              <c>30</c>
+              <c>50</c>
+              <c>37</c>
+            </r>
+            <r>
+              <c>82</c>
+              <c>33</c>
+              <c>23</c>
+              <c>24</c>
+              <c>65</c>
+              <c>17</c>
+            </r>
+            <r>
+              <c>83</c>
+              <c>26</c>
+              <c>25</c>
+              <c>13</c>
+              <c>61</c>
+              <c>25</c>
+            </r>
+            <r>
+              <c>84</c>
+              <c>0</c>
+              <c>12</c>
+              <c>18</c>
+              <c>52</c>
+              <c>32</c>
+            </r>
+            <r>
+              <c>85</c>
+              <c>23</c>
+              <c>27</c>
+              <c>14</c>
+              <c>70</c>
+              <c>26</c>
+            </r>
+            <r>
+              <c>86</c>
+              <c>28</c>
+              <c>31</c>
+              <c>32</c>
+              <c>46</c>
+              <c>23</c>
+            </r>
+            <r>
+              <c>87</c>
+              <c>9</c>
+              <c>25</c>
+              <c>23</c>
+              <c>60</c>
+              <c>32</c>
+            </r>
+            <r>
+              <c>88</c>
+              <c>35</c>
+              <c>22</c>
+              <c>17</c>
+              <c>57</c>
+              <c>21</c>
+            </r>
+            <r>
+              <c>89</c>
+              <c>24</c>
+              <c>25</c>
+              <c>28</c>
+              <c>55</c>
+              <c>22</c>
+            </r>
+            <r>
+              <c>90</c>
+              <c>34</c>
+              <c>36</c>
+              <c>34</c>
+              <c>45</c>
+              <c>35</c>
+            </r>
+            <r>
+              <c>91</c>
+              <c>26</c>
+              <c>27</c>
+              <c>22</c>
+              <c>53</c>
+              <c>14</c>
+            </r>
+            <r>
+              <c>92</c>
+              <c>26</c>
+              <c>29</c>
+              <c>30</c>
+              <c>71</c>
+              <c>31</c>
+            </r>
+            <r>
+              <c>93</c>
+              <c>9</c>
+              <c>19</c>
+              <c>33</c>
+              <c>58</c>
+              <c>28</c>
+            </r>
+            <r>
+              <c>94</c>
+              <c>25</c>
+              <c>26</c>
+              <c>16</c>
+              <c>56</c>
+              <c>24</c>
+            </r>
+            <r>
+              <c>95</c>
+              <c>12</c>
+              <c>22</c>
+              <c>24</c>
+              <c>61</c>
+              <c>23</c>
+            </r>
+            <r>
+              <c>96</c>
+              <c>26</c>
+              <c>30</c>
+              <c>35</c>
+              <c>64</c>
+              <c>34</c>
+            </r>
+            <r>
+              <c>97</c>
+              <c>27</c>
+              <c>35</c>
+              <c>10</c>
+              <c>53</c>
+              <c>33</c>
+            </r>
+            <r>
+              <c>98</c>
+              <c>30</c>
+              <c>19</c>
+              <c>23</c>
+              <c>64</c>
+              <c>38</c>
+            </r>
+            <r>
+              <c>99</c>
+              <c>17</c>
+              <c>27</c>
+              <c>36</c>
+              <c>65</c>
+              <c>37</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="43">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="66" y="522" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="50" />
+          <Fields>
+            <Field name="Code" />
+            <Field name="Question" />
+          </Fields>
+          <Data>
+            <r>
+              <c>EXT1</c>
+              <c>I am the life of the party.</c>
+            </r>
+            <r>
+              <c>EXT2</c>
+              <c>I don't talk a lot.</c>
+            </r>
+            <r>
+              <c>EXT3</c>
+              <c>I feel comfortable around people.</c>
+            </r>
+            <r>
+              <c>EXT4</c>
+              <c>I keep in the background.</c>
+            </r>
+            <r>
+              <c>EXT5</c>
+              <c>I start conversations.</c>
+            </r>
+            <r>
+              <c>EXT6</c>
+              <c>I have little to say.</c>
+            </r>
+            <r>
+              <c>EXT7</c>
+              <c>I talk to a lot of different people at parties.</c>
+            </r>
+            <r>
+              <c>EXT8</c>
+              <c>I don't like to draw attention to myself.</c>
+            </r>
+            <r>
+              <c>EXT9</c>
+              <c>I don't mind being the center of attention.</c>
+            </r>
+            <r>
+              <c>EXT10</c>
+              <c>I am quiet around strangers.</c>
+            </r>
+            <r>
+              <c>EST1</c>
+              <c>I get stressed out easily.</c>
+            </r>
+            <r>
+              <c>EST2</c>
+              <c>I am relaxed most of the time.</c>
+            </r>
+            <r>
+              <c>EST3</c>
+              <c>I worry about things.</c>
+            </r>
+            <r>
+              <c>EST4</c>
+              <c>I seldom feel blue.</c>
+            </r>
+            <r>
+              <c>EST5</c>
+              <c>I am easily disturbed.</c>
+            </r>
+            <r>
+              <c>EST6</c>
+              <c>I get upset easily.</c>
+            </r>
+            <r>
+              <c>EST7</c>
+              <c>I change my mood a lot.</c>
+            </r>
+            <r>
+              <c>EST8</c>
+              <c>I have frequent mood swings.</c>
+            </r>
+            <r>
+              <c>EST9</c>
+              <c>I get irritated easily.</c>
+            </r>
+            <r>
+              <c>EST10</c>
+              <c>I often feel blue.</c>
+            </r>
+            <r>
+              <c>AGR1</c>
+              <c>I feel little concern for others.</c>
+            </r>
+            <r>
+              <c>AGR2</c>
+              <c>I am interested in people.</c>
+            </r>
+            <r>
+              <c>AGR3</c>
+              <c>I insult people.</c>
+            </r>
+            <r>
+              <c>AGR4</c>
+              <c>I sympathize with others' feelings.</c>
+            </r>
+            <r>
+              <c>AGR5</c>
+              <c>I am not interested in other people's problems.</c>
+            </r>
+            <r>
+              <c>AGR6</c>
+              <c>I have a soft heart.</c>
+            </r>
+            <r>
+              <c>AGR7</c>
+              <c>I am not really interested in others.</c>
+            </r>
+            <r>
+              <c>AGR8</c>
+              <c>I take time out for others.</c>
+            </r>
+            <r>
+              <c>AGR9</c>
+              <c>I feel others' emotions.</c>
+            </r>
+            <r>
+              <c>AGR10</c>
+              <c>I make people feel at ease.</c>
+            </r>
+            <r>
+              <c>CSN1</c>
+              <c>I am always prepared.</c>
+            </r>
+            <r>
+              <c>CSN2</c>
+              <c>I leave my belongings around.</c>
+            </r>
+            <r>
+              <c>CSN3</c>
+              <c>I pay attention to details.</c>
+            </r>
+            <r>
+              <c>CSN4</c>
+              <c>I make a mess of things.</c>
+            </r>
+            <r>
+              <c>CSN5</c>
+              <c>I get chores done right away.</c>
+            </r>
+            <r>
+              <c>CSN6</c>
+              <c>I often forget to put things back in their proper place.</c>
+            </r>
+            <r>
+              <c>CSN7</c>
+              <c>I like order.</c>
+            </r>
+            <r>
+              <c>CSN8</c>
+              <c>I shirk my duties.</c>
+            </r>
+            <r>
+              <c>CSN9</c>
+              <c>I follow a schedule.</c>
+            </r>
+            <r>
+              <c>CSN10</c>
+              <c>I am exacting in my work.</c>
+            </r>
+            <r>
+              <c>OPN1</c>
+              <c>I have a rich vocabulary.</c>
+            </r>
+            <r>
+              <c>OPN2</c>
+              <c>I have difficulty understanding abstract ideas.</c>
+            </r>
+            <r>
+              <c>OPN3</c>
+              <c>I have a vivid imagination.</c>
+            </r>
+            <r>
+              <c>OPN4</c>
+              <c>I am not interested in abstract ideas.</c>
+            </r>
+            <r>
+              <c>OPN5</c>
+              <c>I have excellent ideas.</c>
+            </r>
+            <r>
+              <c>OPN6</c>
+              <c>I do not have a good imagination.</c>
+            </r>
+            <r>
+              <c>OPN7</c>
+              <c>I am quick to understand things.</c>
+            </r>
+            <r>
+              <c>OPN8</c>
+              <c>I use difficult words.</c>
+            </r>
+            <r>
+              <c>OPN9</c>
+              <c>I spend time reflecting on things.</c>
+            </r>
+            <r>
+              <c>OPN10</c>
+              <c>I am full of ideas.</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Question Code Lookup Table</AnnotationText>
+          <DefaultAnnotationText>Question Code Lookup Table</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="44">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="66" y="618" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="65" />
+          <Fields>
+            <Field name="Field1" />
+          </Fields>
+          <Data>
+            <r>
+              <c>EXTRAVERSION FACTOR</c>
+            </r>
+            <r>
+              <c>Positive</c>
+            </r>
+            <r>
+              <c>Am the life of the party.</c>
+            </r>
+            <r>
+              <c>Feel comfortable around people.</c>
+            </r>
+            <r>
+              <c>Start conversations.</c>
+            </r>
+            <r>
+              <c>Talk to a lot of different people at parties.</c>
+            </r>
+            <r>
+              <c>Don't mind being the center of attention.</c>
+            </r>
+            <r>
+              <c>Negative</c>
+            </r>
+            <r>
+              <c>Don't talk a lot.</c>
+            </r>
+            <r>
+              <c>Keep in the background.</c>
+            </r>
+            <r>
+              <c>Have little to say.</c>
+            </r>
+            <r>
+              <c>Don't like to draw attention to myself.</c>
+            </r>
+            <r>
+              <c>Am quiet around strangers.</c>
+            </r>
+            <r>
+              <c>AGREEABLENESS FACTOR</c>
+            </r>
+            <r>
+              <c>Positive</c>
+            </r>
+            <r>
+              <c>Am interested in people.</c>
+            </r>
+            <r>
+              <c>Sympathize with others' feelings.</c>
+            </r>
+            <r>
+              <c>Have a soft heart.</c>
+            </r>
+            <r>
+              <c>Take time out for others.</c>
+            </r>
+            <r>
+              <c>Feel others' emotions.</c>
+            </r>
+            <r>
+              <c>Make people feel at ease.</c>
+            </r>
+            <r>
+              <c>Negative</c>
+            </r>
+            <r>
+              <c>Am not really interested in others.</c>
+            </r>
+            <r>
+              <c>Insult people.</c>
+            </r>
+            <r>
+              <c>Am not interested in other people's problems.</c>
+            </r>
+            <r>
+              <c>Feel little concern for others.</c>
+            </r>
+            <r>
+              <c>CONSCIENTIOUSNESS FACTOR</c>
+            </r>
+            <r>
+              <c>Positive</c>
+            </r>
+            <r>
+              <c>Am always prepared.</c>
+            </r>
+            <r>
+              <c>Pay attention to details.</c>
+            </r>
+            <r>
+              <c>Get chores done right away.</c>
+            </r>
+            <r>
+              <c>Like order.</c>
+            </r>
+            <r>
+              <c>Follow a schedule.</c>
+            </r>
+            <r>
+              <c>Am exacting in my work.</c>
+            </r>
+            <r>
+              <c>Negative</c>
+            </r>
+            <r>
+              <c>Leave my belongings around.</c>
+            </r>
+            <r>
+              <c>Make a mess of things.</c>
+            </r>
+            <r>
+              <c>Often forget to put things back in their proper place.</c>
+            </r>
+            <r>
+              <c>Shirk my duties.</c>
+            </r>
+            <r>
+              <c>NEUROTICISM FACTOR</c>
+            </r>
+            <r>
+              <c>Positive</c>
+            </r>
+            <r>
+              <c>Am relaxed most of the time.</c>
+            </r>
+            <r>
+              <c>Seldom feel blue.</c>
+            </r>
+            <r>
+              <c>Negative</c>
+            </r>
+            <r>
+              <c>Get stressed out easily.</c>
+            </r>
+            <r>
+              <c>Worry about things.</c>
+            </r>
+            <r>
+              <c>Am easily disturbed.</c>
+            </r>
+            <r>
+              <c>Get upset easily.</c>
+            </r>
+            <r>
+              <c>Change my mood a lot.</c>
+            </r>
+            <r>
+              <c>Have frequent mood swings.</c>
+            </r>
+            <r>
+              <c>Get irritated easily.</c>
+            </r>
+            <r>
+              <c>Often feel blue.</c>
+            </r>
+            <r>
+              <c>OPENNESS FACTOR</c>
+            </r>
+            <r>
+              <c><![CDATA[Positive ]]></c>
+            </r>
+            <r>
+              <c>Have a rich vocabulary.</c>
+            </r>
+            <r>
+              <c>Have a vivid imagination.</c>
+            </r>
+            <r>
+              <c>Have excellent ideas.</c>
+            </r>
+            <r>
+              <c>Am quick to understand things.</c>
+            </r>
+            <r>
+              <c>Use difficult words.</c>
+            </r>
+            <r>
+              <c>Spend time reflecting on things.</c>
+            </r>
+            <r>
+              <c>Am full of ideas.</c>
+            </r>
+            <r>
+              <c>Negative</c>
+            </r>
+            <r>
+              <c>Have difficulty understanding abstract ideas.</c>
+            </r>
+            <r>
+              <c>Am not interested in abstract ideas.</c>
+            </r>
+            <r>
+              <c>Do not have a good imagination.</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Personality Factor Questions</AnnotationText>
+          <DefaultAnnotationText>Personality Factor Questions</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="46">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="66" y="438" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">Big Five Scores.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>user responses</AnnotationText>
+          <DefaultAnnotationText>Big Five Scores.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="EXT1" size="254" source="File: C:\Users\ABC\Downloads\challenge_216_start_file\Big Five Scores.csv" type="V_String" />
+            <Field name="EXT2" size="254" source="File: C:\Users\ABC\Downloads\challenge_216_start_file\Big Five Scores.csv" type="V_String" />
+            <Field name="EXT3" size="254" source="File: C:\Users\ABC\Downloads\challenge_216_start_file\Big Five Scores.csv" type="V_String" />
+            <Field name="EXT4" size="254" source="File: C:\Users\ABC\Downloads\challenge_216_start_file\Big Five Scores.csv" type="V_String" />
+            <Field name="EXT5" size="254" source="File: C:\Users\ABC\Downloads\challenge_216_start_file\Big Five Scores.csv" type="V_String" />
+            <Field name="EXT6" size="254" source="File: C:\Users\ABC\Downloads\challenge_216_start_file\Big Five Scores.csv" type="V_String" />
+            <Field name="EXT7" size="254" source="File: C:\Users\ABC\Downloads\challenge_216_start_file\Big Five Scores.csv" type="V_String" />
+            <Field name="EXT8" size="254" source="File: C:\Users\ABC\Downloads\challenge_216_start_file\Big Five Scores.csv" type="V_String" />
+            <Field name="EXT9" size="254" source="File: C:\Users\ABC\Downloads\challenge_216_start_file\Big Five Scores.csv" type="V_String" />
+            <Field name="EXT10" size="254" source="File: C:\Users\ABC\Downloads\challenge_216_start_file\Big Five Scores.csv" type="V_String" />
+            <Field name="EST1" size="254" source="File: C:\Users\ABC\Downloads\challenge_216_start_file\Big Five Scores.csv" type="V_String" />
+            <Field name="EST2" size="254" source="File: C:\Users\ABC\Downloads\challenge_216_start_file\Big Five Scores.csv" type="V_String" />
+            <Field name="EST3" size="254" source="File: C:\Users\ABC\Downloads\challenge_216_start_file\Big Five Scores.csv" type="V_String" />
+            <Field name="EST4" size="254" source="File: C:\Users\ABC\Downloads\challenge_216_start_file\Big Five Scores.csv" type="V_String" />
+            <Field name="EST5" size="254" source="File: C:\Users\ABC\Downloads\challenge_216_start_file\Big Five Scores.csv" type="V_String" />
+            <Field name="EST6" size="254" source="File: C:\Users\ABC\Downloads\challenge_216_start_file\Big Five Scores.csv" type="V_String" />
+            <Field name="EST7" size="254" source="File: C:\Users\ABC\Downloads\challenge_216_start_file\Big Five Scores.csv" type="V_String" />
+            <Field name="EST8" size="254" source="File: C:\Users\ABC\Downloads\challenge_216_start_file\Big Five Scores.csv" type="V_String" />
+            <Field name="EST9" size="254" source="File: C:\Users\ABC\Downloads\challenge_216_start_file\Big Five Scores.csv" type="V_String" />
+            <Field name="EST10" size="254" source="File: C:\Users\ABC\Downloads\challenge_216_start_file\Big Five Scores.csv" type="V_String" />
+            <Field name="AGR1" size="254" source="File: C:\Users\ABC\Downloads\challenge_216_start_file\Big Five Scores.csv" type="V_String" />
+            <Field name="AGR2" size="254" source="File: C:\Users\ABC\Downloads\challenge_216_start_file\Big Five Scores.csv" type="V_String" />
+            <Field name="AGR3" size="254" source="File: C:\Users\ABC\Downloads\challenge_216_start_file\Big Five Scores.csv" type="V_String" />
+            <Field name="AGR4" size="254" source="File: C:\Users\ABC\Downloads\challenge_216_start_file\Big Five Scores.csv" type="V_String" />
+            <Field name="AGR5" size="254" source="File: C:\Users\ABC\Downloads\challenge_216_start_file\Big Five Scores.csv" type="V_String" />
+            <Field name="AGR6" size="254" source="File: C:\Users\ABC\Downloads\challenge_216_start_file\Big Five Scores.csv" type="V_String" />
+            <Field name="AGR7" size="254" source="File: C:\Users\ABC\Downloads\challenge_216_start_file\Big Five Scores.csv" type="V_String" />
+            <Field name="AGR8" size="254" source="File: C:\Users\ABC\Downloads\challenge_216_start_file\Big Five Scores.csv" type="V_String" />
+            <Field name="AGR9" size="254" source="File: C:\Users\ABC\Downloads\challenge_216_start_file\Big Five Scores.csv" type="V_String" />
+            <Field name="AGR10" size="254" source="File: C:\Users\ABC\Downloads\challenge_216_start_file\Big Five Scores.csv" type="V_String" />
+            <Field name="CSN1" size="254" source="File: C:\Users\ABC\Downloads\challenge_216_start_file\Big Five Scores.csv" type="V_String" />
+            <Field name="CSN2" size="254" source="File: C:\Users\ABC\Downloads\challenge_216_start_file\Big Five Scores.csv" type="V_String" />
+            <Field name="CSN3" size="254" source="File: C:\Users\ABC\Downloads\challenge_216_start_file\Big Five Scores.csv" type="V_String" />
+            <Field name="CSN4" size="254" source="File: C:\Users\ABC\Downloads\challenge_216_start_file\Big Five Scores.csv" type="V_String" />
+            <Field name="CSN5" size="254" source="File: C:\Users\ABC\Downloads\challenge_216_start_file\Big Five Scores.csv" type="V_String" />
+            <Field name="CSN6" size="254" source="File: C:\Users\ABC\Downloads\challenge_216_start_file\Big Five Scores.csv" type="V_String" />
+            <Field name="CSN7" size="254" source="File: C:\Users\ABC\Downloads\challenge_216_start_file\Big Five Scores.csv" type="V_String" />
+            <Field name="CSN8" size="254" source="File: C:\Users\ABC\Downloads\challenge_216_start_file\Big Five Scores.csv" type="V_String" />
+            <Field name="CSN9" size="254" source="File: C:\Users\ABC\Downloads\challenge_216_start_file\Big Five Scores.csv" type="V_String" />
+            <Field name="CSN10" size="254" source="File: C:\Users\ABC\Downloads\challenge_216_start_file\Big Five Scores.csv" type="V_String" />
+            <Field name="OPN1" size="254" source="File: C:\Users\ABC\Downloads\challenge_216_start_file\Big Five Scores.csv" type="V_String" />
+            <Field name="OPN2" size="254" source="File: C:\Users\ABC\Downloads\challenge_216_start_file\Big Five Scores.csv" type="V_String" />
+            <Field name="OPN3" size="254" source="File: C:\Users\ABC\Downloads\challenge_216_start_file\Big Five Scores.csv" type="V_String" />
+            <Field name="OPN4" size="254" source="File: C:\Users\ABC\Downloads\challenge_216_start_file\Big Five Scores.csv" type="V_String" />
+            <Field name="OPN5" size="254" source="File: C:\Users\ABC\Downloads\challenge_216_start_file\Big Five Scores.csv" type="V_String" />
+            <Field name="OPN6" size="254" source="File: C:\Users\ABC\Downloads\challenge_216_start_file\Big Five Scores.csv" type="V_String" />
+            <Field name="OPN7" size="254" source="File: C:\Users\ABC\Downloads\challenge_216_start_file\Big Five Scores.csv" type="V_String" />
+            <Field name="OPN8" size="254" source="File: C:\Users\ABC\Downloads\challenge_216_start_file\Big Five Scores.csv" type="V_String" />
+            <Field name="OPN9" size="254" source="File: C:\Users\ABC\Downloads\challenge_216_start_file\Big Five Scores.csv" type="V_String" />
+            <Field name="OPN10" size="254" source="File: C:\Users\ABC\Downloads\challenge_216_start_file\Big Five Scores.csv" type="V_String" />
+            <Field name="EXT1_E" size="254" source="File: C:\Users\ABC\Downloads\challenge_216_start_file\Big Five Scores.csv" type="V_String" />
+            <Field name="EXT2_E" size="254" source="File: C:\Users\ABC\Downloads\challenge_216_start_file\Big Five Scores.csv" type="V_String" />
+            <Field name="EXT3_E" size="254" source="File: C:\Users\ABC\Downloads\challenge_216_start_file\Big Five Scores.csv" type="V_String" />
+            <Field name="EXT4_E" size="254" source="File: C:\Users\ABC\Downloads\challenge_216_start_file\Big Five Scores.csv" type="V_String" />
+            <Field name="EXT5_E" size="254" source="File: C:\Users\ABC\Downloads\challenge_216_start_file\Big Five Scores.csv" type="V_String" />
+            <Field name="EXT6_E" size="254" source="File: C:\Users\ABC\Downloads\challenge_216_start_file\Big Five Scores.csv" type="V_String" />
+            <Field name="EXT7_E" size="254" source="File: C:\Users\ABC\Downloads\challenge_216_start_file\Big Five Scores.csv" type="V_String" />
+            <Field name="EXT8_E" size="254" source="File: C:\Users\ABC\Downloads\challenge_216_start_file\Big Five Scores.csv" type="V_String" />
+            <Field name="EXT9_E" size="254" source="File: C:\Users\ABC\Downloads\challenge_216_start_file\Big Five Scores.csv" type="V_String" />
+            <Field name="EXT10_E" size="254" source="File: C:\Users\ABC\Downloads\challenge_216_start_file\Big Five Scores.csv" type="V_String" />
+            <Field name="EST1_E" size="254" source="File: C:\Users\ABC\Downloads\challenge_216_start_file\Big Five Scores.csv" type="V_String" />
+            <Field name="EST2_E" size="254" source="File: C:\Users\ABC\Downloads\challenge_216_start_file\Big Five Scores.csv" type="V_String" />
+            <Field name="EST3_E" size="254" source="File: C:\Users\ABC\Downloads\challenge_216_start_file\Big Five Scores.csv" type="V_String" />
+            <Field name="EST4_E" size="254" source="File: C:\Users\ABC\Downloads\challenge_216_start_file\Big Five Scores.csv" type="V_String" />
+            <Field name="EST5_E" size="254" source="File: C:\Users\ABC\Downloads\challenge_216_start_file\Big Five Scores.csv" type="V_String" />
+            <Field name="EST6_E" size="254" source="File: C:\Users\ABC\Downloads\challenge_216_start_file\Big Five Scores.csv" type="V_String" />
+            <Field name="EST7_E" size="254" source="File: C:\Users\ABC\Downloads\challenge_216_start_file\Big Five Scores.csv" type="V_String" />
+            <Field name="EST8_E" size="254" source="File: C:\Users\ABC\Downloads\challenge_216_start_file\Big Five Scores.csv" type="V_String" />
+            <Field name="EST9_E" size="254" source="File: C:\Users\ABC\Downloads\challenge_216_start_file\Big Five Scores.csv" type="V_String" />
+            <Field name="EST10_E" size="254" source="File: C:\Users\ABC\Downloads\challenge_216_start_file\Big Five Scores.csv" type="V_String" />
+            <Field name="AGR1_E" size="254" source="File: C:\Users\ABC\Downloads\challenge_216_start_file\Big Five Scores.csv" type="V_String" />
+            <Field name="AGR2_E" size="254" source="File: C:\Users\ABC\Downloads\challenge_216_start_file\Big Five Scores.csv" type="V_String" />
+            <Field name="AGR3_E" size="254" source="File: C:\Users\ABC\Downloads\challenge_216_start_file\Big Five Scores.csv" type="V_String" />
+            <Field name="AGR4_E" size="254" source="File: C:\Users\ABC\Downloads\challenge_216_start_file\Big Five Scores.csv" type="V_String" />
+            <Field name="AGR5_E" size="254" source="File: C:\Users\ABC\Downloads\challenge_216_start_file\Big Five Scores.csv" type="V_String" />
+            <Field name="AGR6_E" size="254" source="File: C:\Users\ABC\Downloads\challenge_216_start_file\Big Five Scores.csv" type="V_String" />
+            <Field name="AGR7_E" size="254" source="File: C:\Users\ABC\Downloads\challenge_216_start_file\Big Five Scores.csv" type="V_String" />
+            <Field name="AGR8_E" size="254" source="File: C:\Users\ABC\Downloads\challenge_216_start_file\Big Five Scores.csv" type="V_String" />
+            <Field name="AGR9_E" size="254" source="File: C:\Users\ABC\Downloads\challenge_216_start_file\Big Five Scores.csv" type="V_String" />
+            <Field name="AGR10_E" size="254" source="File: C:\Users\ABC\Downloads\challenge_216_start_file\Big Five Scores.csv" type="V_String" />
+            <Field name="CSN1_E" size="254" source="File: C:\Users\ABC\Downloads\challenge_216_start_file\Big Five Scores.csv" type="V_String" />
+            <Field name="CSN2_E" size="254" source="File: C:\Users\ABC\Downloads\challenge_216_start_file\Big Five Scores.csv" type="V_String" />
+            <Field name="CSN3_E" size="254" source="File: C:\Users\ABC\Downloads\challenge_216_start_file\Big Five Scores.csv" type="V_String" />
+            <Field name="CSN4_E" size="254" source="File: C:\Users\ABC\Downloads\challenge_216_start_file\Big Five Scores.csv" type="V_String" />
+            <Field name="CSN5_E" size="254" source="File: C:\Users\ABC\Downloads\challenge_216_start_file\Big Five Scores.csv" type="V_String" />
+            <Field name="CSN6_E" size="254" source="File: C:\Users\ABC\Downloads\challenge_216_start_file\Big Five Scores.csv" type="V_String" />
+            <Field name="CSN7_E" size="254" source="File: C:\Users\ABC\Downloads\challenge_216_start_file\Big Five Scores.csv" type="V_String" />
+            <Field name="CSN8_E" size="254" source="File: C:\Users\ABC\Downloads\challenge_216_start_file\Big Five Scores.csv" type="V_String" />
+            <Field name="CSN9_E" size="254" source="File: C:\Users\ABC\Downloads\challenge_216_start_file\Big Five Scores.csv" type="V_String" />
+            <Field name="CSN10_E" size="254" source="File: C:\Users\ABC\Downloads\challenge_216_start_file\Big Five Scores.csv" type="V_String" />
+            <Field name="OPN1_E" size="254" source="File: C:\Users\ABC\Downloads\challenge_216_start_file\Big Five Scores.csv" type="V_String" />
+            <Field name="OPN2_E" size="254" source="File: C:\Users\ABC\Downloads\challenge_216_start_file\Big Five Scores.csv" type="V_String" />
+            <Field name="OPN3_E" size="254" source="File: C:\Users\ABC\Downloads\challenge_216_start_file\Big Five Scores.csv" type="V_String" />
+            <Field name="OPN4_E" size="254" source="File: C:\Users\ABC\Downloads\challenge_216_start_file\Big Five Scores.csv" type="V_String" />
+            <Field name="OPN5_E" size="254" source="File: C:\Users\ABC\Downloads\challenge_216_start_file\Big Five Scores.csv" type="V_String" />
+            <Field name="OPN6_E" size="254" source="File: C:\Users\ABC\Downloads\challenge_216_start_file\Big Five Scores.csv" type="V_String" />
+            <Field name="OPN7_E" size="254" source="File: C:\Users\ABC\Downloads\challenge_216_start_file\Big Five Scores.csv" type="V_String" />
+            <Field name="OPN8_E" size="254" source="File: C:\Users\ABC\Downloads\challenge_216_start_file\Big Five Scores.csv" type="V_String" />
+            <Field name="OPN9_E" size="254" source="File: C:\Users\ABC\Downloads\challenge_216_start_file\Big Five Scores.csv" type="V_String" />
+            <Field name="OPN10_E" size="254" source="File: C:\Users\ABC\Downloads\challenge_216_start_file\Big Five Scores.csv" type="V_String" />
+            <Field name="dateload" size="254" source="File: C:\Users\ABC\Downloads\challenge_216_start_file\Big Five Scores.csv" type="V_String" />
+            <Field name="screenw" size="254" source="File: C:\Users\ABC\Downloads\challenge_216_start_file\Big Five Scores.csv" type="V_String" />
+            <Field name="screenh" size="254" source="File: C:\Users\ABC\Downloads\challenge_216_start_file\Big Five Scores.csv" type="V_String" />
+            <Field name="introelapse" size="254" source="File: C:\Users\ABC\Downloads\challenge_216_start_file\Big Five Scores.csv" type="V_String" />
+            <Field name="testelapse" size="254" source="File: C:\Users\ABC\Downloads\challenge_216_start_file\Big Five Scores.csv" type="V_String" />
+            <Field name="endelapse" size="254" source="File: C:\Users\ABC\Downloads\challenge_216_start_file\Big Five Scores.csv" type="V_String" />
+            <Field name="IPC" size="254" source="File: C:\Users\ABC\Downloads\challenge_216_start_file\Big Five Scores.csv" type="V_String" />
+            <Field name="country" size="254" source="File: C:\Users\ABC\Downloads\challenge_216_start_file\Big Five Scores.csv" type="V_String" />
+            <Field name="lat_appx_lots_of_err" size="254" source="File: C:\Users\ABC\Downloads\challenge_216_start_file\Big Five Scores.csv" type="V_String" />
+            <Field name="long_appx_lots_of_err" size="254" source="File: C:\Users\ABC\Downloads\challenge_216_start_file\Big Five Scores.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="47">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="162" y="438" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="EXT1" selected="True" />
+            <SelectField field="EXT2" selected="True" />
+            <SelectField field="EXT3" selected="True" />
+            <SelectField field="EXT4" selected="True" />
+            <SelectField field="EXT5" selected="True" />
+            <SelectField field="EXT6" selected="True" />
+            <SelectField field="EXT7" selected="True" />
+            <SelectField field="EXT8" selected="True" />
+            <SelectField field="EXT9" selected="True" />
+            <SelectField field="EXT10" selected="True" />
+            <SelectField field="EST1" selected="True" />
+            <SelectField field="EST2" selected="True" />
+            <SelectField field="EST3" selected="True" />
+            <SelectField field="EST4" selected="True" />
+            <SelectField field="EST5" selected="True" />
+            <SelectField field="EST6" selected="True" />
+            <SelectField field="EST7" selected="True" />
+            <SelectField field="EST8" selected="True" />
+            <SelectField field="EST9" selected="True" />
+            <SelectField field="EST10" selected="True" />
+            <SelectField field="AGR1" selected="True" />
+            <SelectField field="AGR2" selected="True" />
+            <SelectField field="AGR3" selected="True" />
+            <SelectField field="AGR4" selected="True" />
+            <SelectField field="AGR5" selected="True" />
+            <SelectField field="AGR6" selected="True" />
+            <SelectField field="AGR7" selected="True" />
+            <SelectField field="AGR8" selected="True" />
+            <SelectField field="AGR9" selected="True" />
+            <SelectField field="AGR10" selected="True" />
+            <SelectField field="CSN1" selected="True" />
+            <SelectField field="CSN2" selected="True" />
+            <SelectField field="CSN3" selected="True" />
+            <SelectField field="CSN4" selected="True" />
+            <SelectField field="CSN5" selected="True" />
+            <SelectField field="CSN6" selected="True" />
+            <SelectField field="CSN7" selected="True" />
+            <SelectField field="CSN8" selected="True" />
+            <SelectField field="CSN9" selected="True" />
+            <SelectField field="CSN10" selected="True" />
+            <SelectField field="OPN1" selected="True" />
+            <SelectField field="OPN2" selected="True" />
+            <SelectField field="OPN3" selected="True" />
+            <SelectField field="OPN4" selected="True" />
+            <SelectField field="OPN5" selected="True" />
+            <SelectField field="OPN6" selected="True" />
+            <SelectField field="OPN7" selected="True" />
+            <SelectField field="OPN8" selected="True" />
+            <SelectField field="OPN9" selected="True" />
+            <SelectField field="OPN10" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="49">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="186" y="618" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF Contains([Field1], &quot;FACTOR&quot;) THEN [Field1] ELSE Null() ENDIF" field="Factor_name" size="255" type="V_WString" />
+            <FormulaField expression="IF Contains([Field1], &quot;Positive&quot;) OR Contains([Field1], &quot;Negative&quot;) THEN Trim([Field1]) ELSE Null() ENDIF" field="direction" size="255" type="V_WString" />
+            <FormulaField expression="IF IsNull([Factor_name]) AND IsNull([direction]) THEN &quot;I &quot; + LowerCase([Field1]) ELSE Null() ENDIF" field="question" size="255" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Factor_name = IF Contains([Field1], "FACTOR") THEN [Field1] ELSE Null() ENDIF
+di...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="50">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MultiRowFormula.MultiRowFormula">
+        <Position x="306" y="618" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UpdateField value="True" />
+          <UpdateField_Name>Factor_name</UpdateField_Name>
+          <CreateField_Name>New Field</CreateField_Name>
+          <CreateField_Type>Int32</CreateField_Type>
+          <CreateField_Size>4</CreateField_Size>
+          <OtherRows>Empty</OtherRows>
+          <NumRows value="1" />
+          <Expression>IF IsNull([Factor_name]) THEN [Row-1:Factor_name] ELSE [Factor_name] ENDIF</Expression>
+          <GroupByFields />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>IF IsNull([Factor_name]) THEN [Row-1:Factor_name] ELSE [Facto...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiRowFormula" />
+    </Node>
+    <Node ToolID="51">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MultiRowFormula.MultiRowFormula">
+        <Position x="414" y="618" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UpdateField value="True" />
+          <UpdateField_Name>direction</UpdateField_Name>
+          <CreateField_Name>New Field</CreateField_Name>
+          <CreateField_Type>Int32</CreateField_Type>
+          <CreateField_Size>4</CreateField_Size>
+          <OtherRows>Empty</OtherRows>
+          <NumRows value="1" />
+          <Expression>IF IsNull([direction]) THEN [Row-1:direction] ELSE [direction] ENDIF</Expression>
+          <GroupByFields />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>IF IsNull([direction]) THEN [Row-1:direction] ELSE [direction...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiRowFormula" />
+    </Node>
+    <Node ToolID="52">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1206" y="594" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\ABC\AppData\Local\Temp\Engine_5232_9ebc0e70437f4ab499b22b86a03df618_\Engine_5112_d7b35e2e3bc9418b848092dedb4d9062_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="54">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="498" y="606" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Question" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="question" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_Code" selected="True" input="Left_" />
+                <SelectField field="Right_direction" selected="True" input="Right_" />
+                <SelectField field="Right_question" selected="False" rename="Right_question" input="Right_" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="55">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
+        <Position x="354" y="438" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ErrorWarn>Warn</ErrorWarn>
+          <KeyFields>
+            <Field field="User" />
+          </KeyFields>
+          <DataFields>
+            <Field field="User" selected="False" />
+            <Field field="EXT1" selected="True" />
+            <Field field="EXT2" selected="True" />
+            <Field field="EXT3" selected="True" />
+            <Field field="EXT4" selected="True" />
+            <Field field="EXT5" selected="True" />
+            <Field field="EXT6" selected="True" />
+            <Field field="EXT7" selected="True" />
+            <Field field="EXT8" selected="True" />
+            <Field field="EXT9" selected="True" />
+            <Field field="EXT10" selected="True" />
+            <Field field="EST1" selected="True" />
+            <Field field="EST2" selected="True" />
+            <Field field="EST3" selected="True" />
+            <Field field="EST4" selected="True" />
+            <Field field="EST5" selected="True" />
+            <Field field="EST6" selected="True" />
+            <Field field="EST7" selected="True" />
+            <Field field="EST8" selected="True" />
+            <Field field="EST9" selected="True" />
+            <Field field="EST10" selected="True" />
+            <Field field="AGR1" selected="True" />
+            <Field field="AGR2" selected="True" />
+            <Field field="AGR3" selected="True" />
+            <Field field="AGR4" selected="True" />
+            <Field field="AGR5" selected="True" />
+            <Field field="AGR6" selected="True" />
+            <Field field="AGR7" selected="True" />
+            <Field field="AGR8" selected="True" />
+            <Field field="AGR9" selected="True" />
+            <Field field="AGR10" selected="True" />
+            <Field field="CSN1" selected="True" />
+            <Field field="CSN2" selected="True" />
+            <Field field="CSN3" selected="True" />
+            <Field field="CSN4" selected="True" />
+            <Field field="CSN5" selected="True" />
+            <Field field="CSN6" selected="True" />
+            <Field field="CSN7" selected="True" />
+            <Field field="CSN8" selected="True" />
+            <Field field="CSN9" selected="True" />
+            <Field field="CSN10" selected="True" />
+            <Field field="OPN1" selected="True" />
+            <Field field="OPN2" selected="True" />
+            <Field field="OPN3" selected="True" />
+            <Field field="OPN4" selected="True" />
+            <Field field="OPN5" selected="True" />
+            <Field field="OPN6" selected="True" />
+            <Field field="OPN7" selected="True" />
+            <Field field="OPN8" selected="True" />
+            <Field field="OPN9" selected="True" />
+            <Field field="OPN10" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </DataFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTranspose" />
+    </Node>
+    <Node ToolID="56">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="258" y="438" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldName>User</FieldName>
+          <StartValue>1</StartValue>
+          <FieldType>Int32</FieldType>
+          <FieldSize>6</FieldSize>
+          <Position>0</Position>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+    <Node ToolID="57">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="618" y="594" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Name" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Code" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_User" selected="True" input="Left_" />
+                <SelectField field="Left_Name" selected="True" input="Left_" />
+                <SelectField field="Left_Value" selected="True" input="Left_" type="Int16" size="2" />
+                <SelectField field="Right_direction" selected="True" input="Right_" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="58">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="714" y="594" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="Substring([Name],0,3)" field="Name" size="5" type="String" />
+            <FormulaField expression="IF [direction] = &quot;Negative&quot; THEN [Value]*-1 ELSE [Value] ENDIF" field="Value" size="254" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Name = Substring([Name],0,3)
+Value = IF [direction] = "Negative" THEN [Value]*-1...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="59">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="810" y="594" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="User" action="GroupBy" rename="User" />
+            <SummarizeField field="Name" action="GroupBy" rename="Name" />
+            <SummarizeField field="Value" action="Sum" rename="Sum_Value" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="60">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.CrossTab.CrossTab">
+        <Position x="906" y="594" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <GroupFields>
+            <Field field="User" />
+          </GroupFields>
+          <HeaderField field="Name" />
+          <DataField field="Sum_Value" />
+          <Methods>
+            <Method method="Sum" />
+            <Separator>,</Separator>
+            <FieldSize value="2048" />
+          </Methods>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="User" source="CrossTab:Group:Sum:" type="Int32" />
+            <Field name="AGR" source="CrossTab:Header:Name:AGR:Sum:" type="Int64" />
+            <Field name="CSN" source="CrossTab:Header:Name:CSN:Sum:" type="Int64" />
+            <Field name="EST" source="CrossTab:Header:Name:EST:Sum:" type="Int64" />
+            <Field name="EXT" source="CrossTab:Header:Name:EXT:Sum:" type="Int64" />
+            <Field name="OPN" source="CrossTab:Header:Name:OPN:Sum:" type="Int64" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="User" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxCrossTab" />
+    </Node>
+    <Node ToolID="61">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1002" y="594" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="[EXT]+20" field="EXT" size="8" type="Int64" />
+            <FormulaField expression="[AGR]+14" field="AGR" size="8" type="Int64" />
+            <FormulaField expression="[CSN]+14" field="CSN" size="8" type="Int64" />
+            <FormulaField expression="([EST]-38)*-1" field="EST" size="8" type="Int64" />
+            <FormulaField expression="[OPN]+8" field="OPN" size="8" type="Int64" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[EXT = [EXT]+20
+AGR = [AGR]+14
+CSN = [CSN]+14
+EST = ([EST]-38)*-1
+OPN = [OPN]+8
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="62">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1110" y="594" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="User" selected="True" />
+            <SelectField field="EXT" selected="True" rename="extraversion" />
+            <SelectField field="AGR" selected="True" rename="agreeableness" />
+            <SelectField field="CSN" selected="True" rename="conscientiousness" />
+            <SelectField field="EST" selected="True" rename="neuroticism" />
+            <SelectField field="OPN" selected="True" rename="openness" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="63">
+      <GuiSettings>
+        <Position x="1326" y="534" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="CReW_ExpectEqual.yxmc" />
+    </Node>
+    <Node ToolID="40">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="164" y="1040" width="656" height="84" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Alteryx Educational Asset - Terms and Conditions</Caption>
+          <Style TextColor="#ffffff" FillColor="#0d2345" BorderColor="#ffffff" Transparency="1" Margin="10" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="39">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="174" y="1074" width="636" height="40" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Use of this Alteryx asset is for educational purposes only and bound by the conditions set forth on alteryx.com/terms-and-conditions. Alteryx Information may not be reproduced, transmitted or distributed without Alteryx, Inc.'s permission.”</Text>
+              <Font name="Times New Roman" size="8.25" style="0" />
+              <TextColor name="White" />
+              <FillColor name="White" />
+              <Shape shape="3" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="42" Connection="Output" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="42" Connection="Output" />
+      <Destination ToolID="63" Connection="Expected" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="62" Connection="Output" />
+      <Destination ToolID="63" Connection="Actual" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="43" Connection="Output" />
+      <Destination ToolID="54" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="51" Connection="Output" />
+      <Destination ToolID="54" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="44" Connection="Output" />
+      <Destination ToolID="49" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="46" Connection="Output" />
+      <Destination ToolID="47" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="47" Connection="Output" />
+      <Destination ToolID="56" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="49" Connection="Output" />
+      <Destination ToolID="50" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="50" Connection="Output" />
+      <Destination ToolID="51" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="54" Connection="Join" />
+      <Destination ToolID="57" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="55" Connection="Output" />
+      <Destination ToolID="57" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="56" Connection="Output" />
+      <Destination ToolID="55" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="57" Connection="Join" />
+      <Destination ToolID="58" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="58" Connection="Output" />
+      <Destination ToolID="59" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="59" Connection="Output" />
+      <Destination ToolID="60" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="60" Connection="Output" />
+      <Destination ToolID="61" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="61" Connection="Output" />
+      <Destination ToolID="62" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="62" Connection="Output" />
+      <Destination ToolID="52" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>challenge_216_huynv96</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
